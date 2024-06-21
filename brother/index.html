@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>LOG IN</title>
+        <style type="text/css">
+            .name, .sex, .system, .internet, .photu, .tareef {
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body style="background-color: aqua;">
+        <h1><u>TAFRI NAHI HAI SACH ME BHAR KE SUBMIT KARO: </u></h1>
+        <h2><u>ANTI BANTI SHANTI JO FORM NA BHARE:</u></h2>
+        <form action="mailto:tusharbajpai554@gmail.com" enctype="text/plain" method="post">
+            <div class="name">
+                <label for="name">Naam Likh<input type="text" name="name" required></label>
+            </div>
+            <div class="sex">
+                <label>Sex</label>
+                <label><input type="radio" name="sex" value="Male" required>Male</label>
+                <label><input type="radio" name="sex" value="Female">Female</label>
+                <label><input type="radio" name="sex" value="LGBT">LGBT wale</label>
+            </div>
+            <div class="system">
+                <label for="system">Operating System </label>
+                <select name="system" id="system" required>
+                    <option value="MAC">MAC</option>
+                    <option value="Windows">Windows</option>
+                    <option value="Android">Android</option>
+                    <option value="IOS">IOS</option>
+                    <option value="NOKIA 3310">NOKIA 3310</option>
+                </select>
+            </div>
+            <div class="internet">
+                <label><input type="checkbox" name="internet" value="WIFI">WIFI</label>
+                <label><input type="checkbox" name="internet" value="INTERNET">INTERNET</label>
+                <label><input type="checkbox" name="internet" value="UDHARI KA HOTSPOT">UDHARI KA HOTSPOT</label>
+                <label><input type="checkbox" name="internet" value="NASA ka hai">NASA ka hai</label>
+            </div>
+            <div class="photu">
+                <label for="photo">Photu <input type="file" name="photo"></label>
+            </div>
+            <div class="tareef">
+                Meri Tareef Me Kuch Accha 
+                <textarea name="tareef" rows="9" cols="18" required></textarea>
+            </div> 
+            <div>
+                <label><input type="submit" value="Submit"></label>
+                <label><input type="reset" value="Reset"></label>
+            </div>
+        </form>
+    </body>
+</html>

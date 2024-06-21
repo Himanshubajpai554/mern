@@ -1,0 +1,53 @@
+.parent1{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
+.child1{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.child2{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+
+}
+.parent2{
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+}
+.child3{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+
+}
+.child4{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: 1;
+}
+
+.p{
+    background-color: black;
+    padding: 24px;
+}
+.c{
+    background-color: white;
+    padding: 24;
+}
+
+@media(width<=100px){
+    .p{
+        height: 200px;
+        background-color: black;
+    }
+}

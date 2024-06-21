@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+</head>
+<body>
+
+    <form method="get" action="./contact.html" novalidate>
+
+        <label>Username :</label>
+        <input type="text" placeholder="please enter name" name = "username"  autocomplete="off"></br>
+        <label> Age :</label>
+        <input type="number" placeholder="please enter age" name = "user-age" value="18"></br><br>
+
+        <lable> Gender :</lable><br>
+        <input id="m1" type="radio" value="male" name="gender" required>
+        <label for="m1">male</label><br>
+        <input id="m2" type="radio" value="female" name="gender">
+        <label for="m2">female</label><br>
+
+        <lable> Hobbies :</lable><br>
+        <input id="m1" type="checkbox" value="animation" name="Hobbies">
+        <label for="m1">animation</label><br>
+        <input id="m2" type="checkbox" value="Android dev" name="Hobbies">
+        <label for="m2">Android dev</label><br>
+
+        <textarea name="Description" rows="4"></textarea>
+        <select name="city">
+            <option value="New york">New york</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Maxico">Maxico</option>
+            <option value="Korea">Korea</option>
+            <option value="India">India</option>
+        </select>
+
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>

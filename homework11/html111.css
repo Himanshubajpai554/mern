@@ -1,0 +1,32 @@
+.parent{
+    background-color: blue;
+    height: 500px;
+    width: 300px;
+}
+
+.child1,.child2{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+.child2{
+    position: relative;
+    left: 100px;
+}
+
+.parent2{
+    background-color: yellow;
+    height: 500px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.child3,.child4{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+.child3{
+    position: relative;
+    justify-items: left;
+}

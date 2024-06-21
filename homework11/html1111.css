@@ -1,0 +1,43 @@
+.parent1{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+.child1{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -40px;
+    left: 40px;
+}
+.child2{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    
+    z-index: 1;
+}
+.parent2{
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+}
+.child3{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.child4{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    
+}

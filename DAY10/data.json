@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "name":"Tushar",
+        "Score":85,
+        "height":5.10
+    },
+    {
+        "id":2,
+        "name":"Himanshu",
+        "Score":95,
+        "height":5.10
+    },
+    {
+        "id":3,
+        "name":"Golu",
+        "Score":99,
+        "height":5.09
+    }
+]

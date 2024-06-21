@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "navbar navbar"
+        "aside main"
+        "footer footer";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 250px 1fr;
+    height: 100vh;
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: #f4f4f4;
+    padding: 1em;
+}
+main{
+    padding: 100px;
+}
+
+.main {
+    grid-area: main;
+    padding: 1em;
+    background-color: bisque;
+    height: 100%;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}

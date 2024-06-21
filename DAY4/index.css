@@ -1,0 +1,13 @@
+.p{
+    height: 500px;
+    background-color: yellow;
+    margin: 100px;
+}
+
+.c{
+    height: 40px;
+    width: 40px;
+    background-color: blueviolet;
+    position: sticky;
+    top: 50px;
+}
